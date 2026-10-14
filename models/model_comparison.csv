@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-score,ROC-AUC,CV ROC-AUC,Best Params
+Logistic Regression,0.6867,0.287,0.7333,0.4125,0.8058,0.7867,{'clf__C': 0.01}
+Random Forest,0.76,0.3373,0.6222,0.4375,0.7835,0.7639,"{'clf__max_depth': 5, 'clf__min_samples_leaf': 1, 'clf__n_estimators': 400}"
+Gradient Boosting,0.8567,0.6667,0.0889,0.1569,0.7356,0.7688,"{'clf__learning_rate': 0.05, 'clf__max_depth': 2, 'clf__n_estimators': 100}"
